@@ -1,18 +1,17 @@
 # Antidisplacement
 
-Basic static site for **Antidisplacement** — a hedge against AI fund focused on resilience and reducing displacement risk.
+React + Vite site for **Antidisplacement** — a hedge against AI fund focused on resilience and reducing displacement risk.
 
 ## Run locally
 
-Open `index.html` in a browser.
-
-If you want a quick local server:
+Install dependencies and run the dev server:
 
 ```bash
-python3 -m http.server 5173
+node .tools/npm/package/bin/npm-cli.js install
+node .tools/npm/package/bin/npm-cli.js run dev
 ```
 
-Then visit `http://localhost:5173`.
+Then open the local URL Vite prints (usually `http://localhost:5173`).
 
 ## Deploy
 
