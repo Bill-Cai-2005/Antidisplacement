@@ -7,11 +7,24 @@ React + Vite site for **Antidisplacement** — a hedge against AI fund focused o
 Install dependencies and run the dev server:
 
 ```bash
-node .tools/npm/package/bin/npm-cli.js install
-node .tools/npm/package/bin/npm-cli.js run dev
+npm install
+npm run dev
 ```
 
 Then open the local URL Vite prints (usually `http://localhost:5173`).
+
+## If `npm` is missing
+
+On macOS, the simplest fix is to install the official Node.js installer (it includes `npm`):
+
+- Download and install Node.js (LTS) from `https://nodejs.org/`
+
+After installing, open a new terminal and verify:
+
+```bash
+node -v
+npm -v
+```
 
 ## Deploy
 
